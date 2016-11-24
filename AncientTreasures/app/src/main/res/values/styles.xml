@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="Theme.Base" parent="android:Theme.Light" />
+
+    <style name="Theme.Sample" parent="Theme.Base" />
+
+    <style name="AppTheme" parent="Theme.Sample" />
+
+
+    <style name="TextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/amber</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/amber</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:background">@color/redb</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/amber</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="ComboBoxView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/amber</item>
+        <item name="android:checked">true</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_marginLeft">15sp</item>
+    </style>
+
+    <style name="ButtonStyle.ImageButtonStyle">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_marginRight">15sp</item>
+    </style>
+<style name="Space">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">15sp</item>
+</style>
+    <style name="BigSpace">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55sp</item>
+    </style>
+</resources>

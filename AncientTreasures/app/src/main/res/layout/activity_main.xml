@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.elisc.ancienttreasures.MainActivity">
+
+    <Space
+        style="@style/BigSpace" />
+
+    <TextView
+        android:id="@+id/welcome"
+        style="@style/TextViewStyle"
+        android:text="@string/welcome"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Space
+        style="@style/BigSpace" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ancientName"
+            style="@style/EditTextStyle"
+            android:text="@string/ancientname"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/player_name"
+            style="@style/TextViewStyle" />
+    </LinearLayout>
+
+    <Space style="@style/Space" />
+
+    <Button
+        android:id="@+id/btn_play"
+        style="@style/ButtonStyle"
+        android:text="@string/play"/>
+
+    <Space
+        style="@style/BigSpace" />
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:text="@string/made" />
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:text="@string/es" />
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:text="@string/lk" />
+</LinearLayout>

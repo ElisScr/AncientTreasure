@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AncientTreasures</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="bt_not_supported">Bluetooth not supported on this device.</string>
+    <string name="bt_not_enabled">Bluetooth is not enabled, turn it on.</string>
+
+    <string name="welcome">Welcome to Ancient Treasure Hunt!</string>
+    <string name="ancientname">Your Ancient Name</string>
+    <string name="play">PLAY</string>
+    <string name="made">App made by:</string>
+    <string name="es">Elisabeta Scriba - 224426</string>
+    <string name="lk">Lilian Kumor - 230293</string>
+    <string name="hint">HINT</string>
+    <string name="send">SEND</string>
+    <string name="music">Music On/Off </string>
+    <string name="back">BACK</string>
+
+</resources>

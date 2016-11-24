@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <Space
+        style="@style/BigSpace" />
+
+    <TextView
+        android:id="@+id/plName"
+        style="@style/TextViewStyle"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Space style="@style/Space" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            style="@style/ComboBoxView"
+            android:buttonTint="@color/amber"
+            android:text="@string/music" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <ImageButton
+            android:id="@+id/back"
+            style="@style/ButtonStyle.ImageButtonStyle"
+            android:src="@drawable/back" />
+    </LinearLayout>
+
+    <Space style="@style/Space" />
+
+    <TextView
+        android:id="@+id/device_nm"
+        style="@style/TextViewStyle"
+        android:textSize="18sp" />
+
+    <Space style="@style/Space"/>
+
+    <TextView
+        android:id="@+id/dista"
+        style="@style/TextViewStyle"
+        android:textSize="18sp" />
+
+    <Space style="@style/Space" />
+
+    <TextView
+        android:id="@+id/tags"
+        style="@style/TextViewStyle"
+        android:textSize="18sp" />
+
+    <Space style="@style/Space" />
+
+    <Button
+        android:id="@+id/redeem"
+        style="@style/ButtonStyle"
+        android:text="@string/hint" />
+
+    <Space style="@style/Space"/>
+
+    <TextView
+        android:id="@+id/infos"
+        style="@style/TextViewStyle" />
+
+    <Space style="@style/Space"/>
+
+    <Button
+        android:id="@+id/wifi"
+        style="@style/ButtonStyle"
+        android:text="@string/send" />
+
+    <Space style="@style/Space"/>
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:id="@+id/textstatus"/>
+
+    <ListView
+        android:id="@id/android:list"
+        style="@style/TextViewStyle" />
+
+    <include layout="@layout/listitem_device" />
+
+</LinearLayout>
